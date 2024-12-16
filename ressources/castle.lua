@@ -24,7 +24,7 @@ function newCastle()
     castle.draw = function()
         love.graphics.draw(castleImage, castle.x, castle.y, castle.angle, imgScaleX, imgScaleY, offsetX, offsetY)
         love.graphics.rectangle("fill", groundX, groundY, groundWidth, groundHeight)
-        love.graphics.circle("line", castle.x, castle.y, castle.radius)
+        -- love.graphics.circle("line", castle.x, castle.y, castle.radius)
     end
 
     return castle

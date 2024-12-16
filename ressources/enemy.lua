@@ -26,9 +26,9 @@ function newEnemy(x, y, life, speed, radius)
 
     enemy.draw = function()
         love.graphics.draw(enemyImage, enemy.x, enemy.y, enemy.angle, enemy.scaleX, enemy.scaleY, offsetX, offsetY)
-        love.graphics.setColor(1, 0, 0)
-        love.graphics.circle("line", enemy.x, enemy.y, enemy.radius)
-        love.graphics.setColor(1, 1, 1)
+        -- love.graphics.setColor(1, 0, 0)
+        -- love.graphics.circle("line", enemy.x, enemy.y, enemy.radius)
+        -- love.graphics.setColor(1, 1, 1)
     end
 
     enemy.takeDamage = function(damages)

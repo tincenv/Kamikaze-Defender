@@ -153,9 +153,9 @@ function newPlayer()
     end
 
     p.draw = function()
-        love.graphics.setColor(0, 1, 0)
-        love.graphics.circle("line", p.x, p.y, p.radius)
-        love.graphics.setColor(1, 1, 1)
+        --love.graphics.setColor(0, 1, 0)
+        --love.graphics.circle("line", p.x, p.y, p.radius)
+        --love.graphics.setColor(1, 1, 1)
         love.graphics.draw(p.currentImg, p.x, p.y, p.angle, p.scaleX, p.scaleY, offsetX, offsetY)
         love.graphics.draw(playerGunImage, p.x, p.y, p.gunAngle, p.gunScaleX, p.gunScaleY, offsetX, offsetY)
     end
