@@ -19,7 +19,7 @@ autoLoad("scenes")
 
 function love.load()
     love.window.setMode(SCREEN_WIDTH, SCREEN_HEIGHT, {resizable = false, vsync = true, centered = true})
-    love.window.setTitle("Mon super jeu qui tue")
+    love.window.setTitle("Kamikaze Defender")
     changeScene("menu")
 end
 
